@@ -6,11 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="vendors/bootstrap-4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="vendors/slick-1.8.1/slick.css">
+	<link rel="stylesheet" href="vendors/chart.js-2.8.0/Chart.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="css/responsive-1100.css">
 </head>
 <body>
-	<div class="body-wrap page-discretionary">
+	<div class="body-wrap page-with-charts page-tsag-conservative">
 
 		<header class="sct-header">
 			<div class="top-bar">
@@ -219,7 +220,7 @@
 										<a href="#" title="Non-discretionary">Non-discretionary</a>
 									</li>
 									<li>
-										<a href="#" class="active has-submenu" title="Discretionary">Discretionary</a>
+										<a href="#" class="has-submenu" title="Discretionary">Discretionary</a>
 										<ul class="ul-submenu-sidebar">
 											<li>
 												<a href="#" title="TSAG ADVANCED PORTFOLIO">TSAG ADVANCED PORTFOLIO</a>
@@ -236,7 +237,7 @@
 										<a href="#" class="has-submenu" title="CRYPTO STRUCTURED OPERATIONS">CRYPTO STRUCTURED OPERATIONS</a>
 										<ul class="ul-submenu-sidebar">
 											<li>
-												<a href="#" title="TSAG CONSERVATIVE">TSAG CONSERVATIVE</a>
+												<a href="#" class="active" title="TSAG CONSERVATIVE">TSAG CONSERVATIVE</a>
 											</li>
 											<li>
 												<a href="#" title="BTC COM CAPITAL PROTEGIDO">BTC COM CAPITAL PROTEGIDO</a>
@@ -262,48 +263,263 @@
 										<a href="#" title="Asset Management">Asset Management</a>
 									</li>
 									<li>
-										<b>Discretionary Mandates</b>
+										<b>TSAG CONSERVATIVE</b>
 									</li>
 								</ul>
 								<article>
-									<h1 class="title-default blue">DISCRETIONARY MANDATES</h1>
-									<div class="row row-diviser">
-										<div class="col col-md-7">
-											<div class="text-simple text-justify">
-												<p>
-													TSAG’s multi disciplinary experience leverages on different skills on portfolio management, quantitative analysis, risk management and our specialization in the blockchain sector to build different trading strategies catering to different goals.
-												</p>
-												<p>
-													Transfero Swiss offers an innovative range of investment products, covering various digital assets and active trading strategies. Our Portfolios include not only mainstream cryptocurrencies but also stable coins, ICOs and other token offerings.
-												</p>
-												<p>
-													Our commitment is to match investment goals with a future-oriented investment style and this requires Transfero to always be one step ahead. We are always looking beyond simple Buy and Hold strategies, pursuing optimal returns while maintaining a prudent and calculated exposure to risks. In our discretionary mandates, clients can rest assured that we will seek the best tailor made strategy that fits with their investment philosophy and matches their risk-reward expectations.
-												</p>
+									<div class="row">
+										<div class="col">
+											<h1 class="title-default blue">TSAG ADVANCED PORTFOLIO</h1>
+										</div>
+										<div class="col">
+											<ul class="ul-actions-buttons ul-diviser d-flex justify-content-end">
+												<li>
+													<a href="#" class="btn btn-link gray flex" title="Create PDF">
+														<i class="icon download-gray"></i>
+														Create PDF
+													</a>
+												</li>
+												<li>
+													<a href="#" class="btn btn-link gray flex" title="Share">
+														<i class="icon share-gray"></i>
+														Share
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="text-simple">
+										<h2 class="title-default">DESCRIPTION</h2>
+										<p>
+											In this mandate the company uses the capital of the investor in operations that take advantage of the price asymmetry of digital assets between markets. Our trading desk will carry out operations whenever there is an opportunity.
+										</p>
+									</div>
+									<div class="text-simple">
+										<h2 class="title-default">RISK AND REWARD PROFILE</h2>
+										<p>
+											The indicator measures the risk of price fluctuations in the portfolio based on the last 30d volatility. This means that the purchase of units in the portfolio is connected to medium risk of such fluctuations. Please note that category 1 does not mean a risk-free investment. Historical data, such as is used in calculating this indicator, may not be a reliable indication of the future risk profile of the Portfolio, why the category might change in the future.
+										</p>
+									</div>
+									<ul class="ul-arrows-steps d-flex">
+										<li>
+											<span class="step step-1 active">1</span>
+										</li>
+										<li>
+											<span class="step step-2 active">2</span>
+										</li>
+										<li>
+											<span class="step step-3 active">3</span>
+										</li>
+										<li>
+											<span class="step step-4 active">4</span>
+										</li>
+										<li>
+											<span class="step step-5">5</span>
+										</li>
+									</ul>
+									<div class="text-simple">
+										<h2 class="title-default">SUITABILITY</h2>
+										<p>
+											<b>Market Vision:</b> The investor seeks to take advantage of trades with no market risk whenever there are price asymmetry opportunities.
+										</p>
+										<p>
+											<b>Investment Horizon:</b> The investor has the flexibility to seek the investment horizon that best fits his strategy.
+										</p>
+										<p>
+											<b>Risk tolerance:</b> Must be an experienced investor familiar with cryptoassets. Its objective should be the appreciation of the Nominal Value invested through the surge in value of original investment.
+										</p>
+									</div>
+
+									<div class="mb-40">
+										<h2 class="title-default">INVESTMENT FACTS</h2>
+										<ul class="ul-table-minimal d-flex">
+											<li>
+												<table class="table-minimal">
+													<tr>
+														<th class="th-title-pink">ASSET CLASS</th>
+													</tr>
+													<tr>
+														<td>digital assets</td>
+													</tr>
+													<tr>
+														<th class="th-title-pink">minimum redemption</th>
+													</tr>
+													<tr>
+														<td>R$ 10.000,00</td>
+													</tr>
+												</table>
+											</li>
+											<li>
+												<table class="table-minimal">
+													<tr>
+														<th class="th-title-pink">strategy launch date</th>
+													</tr>
+													<tr>
+														<td>april 1st, 2018</td>
+													</tr>
+													<tr>
+														<th class="th-title-pink">management fees</th>
+													</tr>
+													<tr>
+														<td>0% p.y.</td>
+													</tr>
+												</table>
+											</li>
+											<li>
+												<table class="table-minimal">
+													<tr>
+														<th class="th-title-pink">minimum investment</th>
+													</tr>
+													<tr>
+														<td>r$ 100.000,00</td>
+													</tr>
+													<tr>
+														<th class="th-title-pink">performance fees</th>
+													</tr>
+													<tr>
+														<td>20% p.y.</td>
+													</tr>
+												</table>
+											</li>
+											<li>
+												<table class="table-minimal">
+													<tr>
+														<th class="th-title-pink">REDEMPTIONS</th>
+													</tr>
+													<tr>
+														<td>D+30*</td>
+													</tr>
+												</table>
+											</li>
+										</ul>
+										<p class="bottom-info">
+											<small>*Working days will be considered, together, in the Capital of the State of Rio de Janeiro and in Zug, Switzerland.</small>
+										</p>
+										<p class="bottom-info">
+											<small>**Calculated every 6 months taking as benchmark Libor CHF or 0%, whichever is greater.</small>
+										</p>
+									</div>
+									
+									<div class="mb-40">
+										<h2 class="title-default">
+											CUMULATIVE INVESTMENT PERFORMANCE<sup>*</sup>
+										</h2>
+										
+										<div class="horizontal-chart">
+											<h3 class="hc-title title-default blue">R$ 100.000,00</h3>
+											<div class="hc-line line-1">
+												<div class="hc-label">2019</div>
+												<div class="hc-bar">
+													<div class="hc-bg">
+														<div class="hc-fill" style="width: 35.98%">
+															<div class="hc-tooltip">+ 35,98%</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="hc-line line-2">
+												<div class="hc-label">2018</div>
+												<div class="hc-bar">
+													<div class="hc-bg">
+														<div class="hc-fill" style="width: 62.24%">
+															<div class="hc-tooltip">+ 62,24%</div>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
-										<div class="col col-md-5">
-											<div class="text-simple">
-												<h2 class="title-default">tsag ADVANCED PORTFOLIO</h2>
-												<p>
-													The TSAG Advanced Portfolio aims to select the set of cryptoassets that can maximize returns in the long term by strategically allocating funds in different asset classes, including those cryptos pegged to real assets.
-												</p>
-												<a href="#" class="btn btn-primary" title="View More">View More</a>
-											</div>
-											<div class="text-simple">
-												<h2 class="title-default">TSAG LIBRA TOP 10 PORTFOLIO</h2>
-												<p>
-													The TSAG Libra Top 10 is composed of the 10 most valuable digital assets by market capitalization. Periodically the manager must rebalance the investor's portfolio to follow original distribution among assets. In this mandate, our strategy include a constraint of concentration of 10% in each asset in the portfolio.
-												</p>
-												<a href="#" class="btn btn-primary" title="View More">View More</a>
-											</div>
-											<div class="text-simple">
-												<h2 class="title-default">CRYPTO STRUCTURED OPERATIONS</h2>
-												<p>
-													Crypto Structured Operations aimed at capturing different opportunity windows and customized to suit customers with different levels of risk tolerance. Possibility of leverage up to 100 times and protection of portion of the capital invested.
-												</p>
-												<a href="#" class="btn btn-primary" title="View More">View More</a>
-											</div>
+
+									</div>
+
+									<div class="mb-50">
+										<h2 class="title-default">Monthly return<sup>*</sup></h2>
+										<div class="wrap-table custom-scrollbar">
+											<table class="table table-performance">
+												<thead>
+													<tr>
+														<th colspan="2">&nbsp;</th>
+														<th class="th-title-pink">Jan</th>
+														<th class="th-title-pink">Feb</th>
+														<th class="th-title-pink">Mar</th>
+														<th class="th-title-pink">Apr</th>
+														<th class="th-title-pink">May</th>
+														<th class="th-title-pink">Jun</th>
+														<th class="th-title-pink">Jul</th>
+														<th class="th-title-pink">Aug</th>
+														<th class="th-title-pink">Sep</th>
+														<th class="th-title-pink">Oct</th>
+														<th class="th-title-pink">Nov</th>
+														<th class="th-title-pink">Dec</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th class="th-title-dark-blue">2019</th>
+														<th class="th-title-dark-gray">BRL</th>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+														<td>&nbsp;</td>
+													</tr>
+													<tr>
+														<th class="th-title-dark-blue">2018</th>
+														<th class="th-title-dark-gray">BRL</th>
+														<td>-</td>
+														<td>-</td>
+														<td>-</td>
+														<td>-</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+														<td>47,07%</td>
+													</tr>
+												</tbody>
+											</table>
 										</div>
+										<!-- <div>
+											<p class="bottom-info">
+												<small>*Simulated performance from 1 May 2018 to 30 Sep 2019.</small>
+											</p>
+										</div> -->
+									</div>
+									<h2 class="title-default">Year Return</h2>
+									<div class="row row-diviser mb-30">
+										<div class="col col-md-4">
+											<h3 class="title-default blue">2019</h3>
+											<table class="table table-return">
+												<tr>
+													<th class="th-title-gray">REAL</th>
+													<td class="text-pink">278,99%</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col col-md-4">
+											<h3 class="title-default blue">2018</h3>
+											<table class="table table-return">
+												<tr>
+													<th class="th-title-gray">REAL</th>
+													<td class="text-pink">278,99%</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+									<div class="text-simple">
+										<p>
+											For detailed performance, track record and personal assistance.
+										</p>
+										<a href="#" class="btn btn-primary" title="Contact Us">Contact Us</a>
 									</div>
 								</article>
 							</div>
@@ -493,6 +709,7 @@
 	<script src="vendors/popper.min.js"></script>
 	<script src="vendors/bootstrap-4.1.3/js/bootstrap.min.js"></script>
 	<script src="vendors/slick-1.8.1/slick.min.js"></script>
+	<script src="vendors/chart.js-2.8.0/Chart.bundle.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>

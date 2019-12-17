@@ -645,6 +645,10 @@ a, button {
 	font-weight: normal;
 }
 
+.text-pink {
+	color: #cd9794 !important;
+}
+
 .col-device-styled {
 	padding-left: 340px;
 	min-height: 522px;
@@ -1613,6 +1617,90 @@ textarea.form-control {
 .ul-table-minimal li {
 	flex-grow: 1;
 }
+
+.horizontal-chart {}
+.hc-line {
+	display: flex;
+	align-items: center;
+}
+.hc-line.line-1 .hc-label,
+.hc-line.line-1 .hc-bar {
+	padding-top: 20px;
+}
+.hc-line.line-2 .hc-label,
+.hc-line.line-2 .hc-bar {
+	padding-bottom: 20px;
+}
+.hc-title {
+	margin-bottom: 5px !important;
+	font-weight: normal !important;
+    margin-left: 10px;
+    padding-top: 20px;
+    width: 120px;
+    text-align: center;
+}
+.hc-label {
+	width: 75px;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #00303c;
+	height: 38px;
+	box-sizing: content-box;
+}
+.hc-bar {
+	height: 60px;
+	border-left: solid 1px #a5a3a3;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	box-sizing: content-box;
+}
+.hc-bar:hover .hc-tooltip {
+	display: block;
+}
+.hc-bg, .hc-fill {
+	height: 38px;
+}
+.hc-bg {
+	background: #c9c9c9;
+	width: 100%;
+	position: relative;
+}
+.hc-fill {
+	background: #cd9794;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hc-tooltip {
+	display: block;
+	position: absolute;
+	top: -52px;
+	right: -29px;
+	color: #00303c;
+	background: #fff;
+	border: solid 2px #cd9794;
+	width: 95px;
+	text-align: center;
+	padding: 4px;
+	font-size: 16px;
+	display: none;
+}
+.hc-tooltip:after {
+	top: 100%;
+	left: 70%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(205, 151, 148, 0);
+	border-top-color: #cd9794;
+	border-width: 8px;
+	margin-left: -8px;
+}
+
 
 
 
