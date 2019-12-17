@@ -158,6 +158,9 @@ select::-ms-expand {
 	background-size: 11px;
 }
 
+.mb-0 {
+	margin-bottom: 0;
+}
 .mb-5 {
 	margin-bottom: 5px;
 }
@@ -2205,6 +2208,10 @@ thead .th-title-gray {
 .page-search article h1 {
 	padding-bottom: 40px;
 	margin-bottom: 30px;
+}
+
+.page-btc-capital article .th-title-dark-blue {
+	font-weight: normal;
 }
 
 
