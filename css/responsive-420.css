@@ -1,0 +1,43 @@
+.show-420 {
+	display: none !important;
+}
+
+@media (max-width: 420px) {
+	.hide-420 {
+		display: none !important;
+	}
+	.show-420 {
+		display: block !important;
+	}
+
+
+
+	.ul-menu {
+		padding-right: 0;
+		padding-left: 70px;
+	}
+	.mbl-menu {
+		margin-left: 70px;
+		margin-right: 0;
+	}
+
+	.menu-header {
+		left: 10px;
+	}
+
+	.ul-menu > li > .dropdown > .link,
+	.ul-menu > li > .menu-link,
+	.mbl-menu {
+		font-size: 14px;
+	}
+
+	.sct-header .menu .dropdown-item {
+		font-size: 14px;
+		white-space: normal;
+	}
+	.sct-header .menu .dropdown.show > .dropdown-menu.parent {
+		left: 70px !important;
+		width: calc(100% - 70px);
+	}
+	
+}

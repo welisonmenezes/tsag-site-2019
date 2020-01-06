@@ -33,6 +33,19 @@ $(document).ready(function(){
 	}
 	onToggleTopSearchClass();
 
+	function onToggleMobileMenu() {
+		$('.menu-hamburger').on('click', function() {
+			var header = $('.sct-header');
+
+			if (header.hasClass('opened')) {
+				header.removeClass('opened');
+			} else {
+				header.addClass('opened');
+			}
+		});
+	}
+	onToggleMobileMenu();
+
 	function performanceChart() {
 		var chart = $('#chartPerformance');
 		if (chart.length > 0) {
