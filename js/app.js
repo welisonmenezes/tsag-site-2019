@@ -6,7 +6,21 @@ $(document).ready(function(){
 		if (car) {
 			car.slick({
 				arrows: false,
-				slidesToShow: 4
+				slidesToShow: 4,
+				responsive: [
+			    {
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 2
+					}
+			    },
+			    {
+					breakpoint: 650,
+					settings: {
+						slidesToShow: 1
+					}
+			    }
+			  ]
 			});
 		}
 	}

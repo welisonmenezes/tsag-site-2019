@@ -31,6 +31,11 @@
 		font-size: 14px;
 	}
 
+	.education-quotes {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
 	.sct-header .menu .dropdown-item {
 		font-size: 14px;
 		white-space: normal;
@@ -40,4 +45,11 @@
 		width: calc(100% - 70px);
 	}
 	
+
+	.sct-home-features {
+		padding: 40px 15px 0 15px;
+	}
+	.sct-home-features h1.title-default {
+		font-size: 20px;
+	}
 }

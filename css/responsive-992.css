@@ -12,7 +12,7 @@
 	
 
 	.body-wrap {
-		padding-top: 72px;
+		padding-top: 71px;
 	}	
 	.top-bar,
 	.menu {
@@ -117,8 +117,6 @@
 		background-image: none !important;
 	}
 
-
-
 	.menu-header {
 		display: flex !important;
 		width: 80px;
@@ -126,6 +124,50 @@
 		top: 30px;
 		left: 20px;
 		z-index: 9;
+	}
+
+
+
+	.banner-content,
+	.full-bg {
+		min-height: calc(100vh - 72px);
+	}
+
+	.text-home-we-work {
+		padding: 0 15px;
+	}
+	.text-home-we-work p {
+		min-height: auto;
+	}
+	.slick-home-we-work {
+		width: 90%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.slick-list {
+		overflow: visible;
+	}
+
+	.education-quotes {
+		display: block !important;
+		font-size: 14px;
+	}
+	.education-quotes figure {
+		border: none;
+		margin-right: 0;
+		padding-right: 0;
+		margin-bottom: 15px;
+	}
+	.education-quotes p {
+		margin-bottom: 15px;
+	}
+	.info-quotes span {
+		display: block;
+		height: auto;
+	}
+	.info-quotes span.name {
+		border: none;
+		margin-bottom: 5px;
 	}
 
 
@@ -231,6 +273,13 @@
 	.sct-header .dropdown-item.active,
 	.sct-header .dropdown-item:hover .link {
 		background: transparent;
+	}
+
+	.sct-home-we-work {
+		padding: 65px 0;
+	}
+	.sct-home-we-work h1 {
+		padding-left: 15px;
 	}
 
 	
