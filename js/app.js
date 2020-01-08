@@ -47,8 +47,8 @@ $(document).ready(function(){
 	}
 	onToggleTopSearchClass();
 
-	function onToggleMobileMenu() {
-		$('.menu-hamburger').on('click', function() {
+	function onToggleMobileMainMenu() {
+		$('.on-open-main-menu').on('click', function() {
 			var header = $('.sct-header');
 
 			if (header.hasClass('opened')) {
@@ -58,7 +58,20 @@ $(document).ready(function(){
 			}
 		});
 	}
-	onToggleMobileMenu();
+	onToggleMobileMainMenu();
+
+	function onToggleMobileSideMenu() {
+		$('.on-open-side-menu').on('click', function() {
+			var header = $('.sidebar');
+
+			if (header.hasClass('opened')) {
+				header.removeClass('opened');
+			} else {
+				header.addClass('opened');
+			}
+		});
+	}
+	onToggleMobileSideMenu();
 
 	function performanceChart() {
 		var chart = $('#chartPerformance');

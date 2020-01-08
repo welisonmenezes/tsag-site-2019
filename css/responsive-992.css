@@ -170,6 +170,82 @@
 		margin-bottom: 5px;
 	}
 
+	.sidebar,
+	.content-area {
+		-ms-flex: 0 0 100%;
+    	flex: 0 0 100%;
+    	max-width:1005%
+	}
+	.content-page {
+		padding-left: 0;
+	}
+	.content-page > article {
+		padding-bottom: 30px;
+	}
+	.sidebar {
+		width: 100%;
+		min-width: 300px;
+		position: absolute;
+		top: 0;
+		left: -200%;
+		z-index: 998;
+		height: 100%;
+		padding: 0;
+
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	.sidebar.opened {
+		left: 0;
+		position: fixed;
+		top: 72px;
+	}
+
+	.ul-menu-sidebar a {
+		padding: 0;
+		border: 0;
+		background: transparent !important;
+		color: #303c50;
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+	.ul-menu-sidebar a.active {
+		color: #cd9794;
+	}
+
+	.menu-tile {
+		position: relative;
+		padding-left: 35px;
+		margin-bottom: 50px;
+	}
+	.menu-tile .menu-hamburger {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.menu-tile h2 {
+		font-size: 16px;
+	}
+
+	h1.title-default {
+		font-size: 17px;
+	}
+	.text-simple h2 {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.text-simple p {
+		font-size: 17px;
+	}
+
+	.mbl-row-as-col {
+		display: block;
+		border: none !important;
+	}
+
 
 	
 	.sct-header .menu .dropdown {
@@ -281,8 +357,37 @@
 	.sct-home-we-work h1 {
 		padding-left: 15px;
 	}
+	
+	.sct-template-side {
+		position: relative;
+	}
 
+	.sct-sidebar {
+		margin: 29px 0;
+		padding: 0 15px 0 50px;
+		position: relative;
+	}
+	.sct-sidebar .menu-hamburger {
+		position: absolute;
+		left: 15px;
+		top: 0;
+	}
+	.sct-sidebar h1 {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
 	
 	
+	
 
+	.page-backup-cloud article figure {
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	.page-backup-cloud article .text-simple.pink {
+		padding: 0;
+	}
+	.page-backup-cloud article .text-justify {
+		text-align: left !important;
+	}
 }
