@@ -390,4 +390,9 @@
 	.page-backup-cloud article .text-justify {
 		text-align: left !important;
 	}
+
+	.page-money-managment article figure {
+	    max-width: 115px;
+	    margin-bottom: 15px;
+	}
 }
