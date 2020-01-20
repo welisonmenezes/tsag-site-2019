@@ -391,8 +391,22 @@
 		text-align: left !important;
 	}
 
-	.page-money-managment article figure {
+	.page-money-managment article figure,
+	.page-security article figure {
 	    max-width: 115px;
 	    margin-bottom: 15px;
+	}
+
+	.page-security article .text-simple.p-right {
+		padding-right: 0;
+	}
+	.page-security article .text-simple.p-left{
+		padding-left: 0;
+	}
+	.page-security article .row-diviser > .col {
+		padding: 0;
+	}
+	.page-security article .row-diviser > .col:after {
+		display: none;
 	}
 }
