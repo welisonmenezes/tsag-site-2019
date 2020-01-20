@@ -35,4 +35,14 @@
 		margin: 10px 0 10px -50px;
 		align-self: center;
 	}
+
+	.page-brokerage article .col-md-4 .text-default {
+		max-width: none;
+	}
+	.page-brokerage article .row-icons {
+		padding-left: 0;
+	}
+	.page-brokerage article .row-icons .col {
+		margin-bottom: 25px;
+	}
 }
