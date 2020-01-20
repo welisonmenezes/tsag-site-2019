@@ -351,6 +351,7 @@ $(document).ready(function(){
 			}
 
 			var ctx = document.getElementById('chartCapital');
+			ctx.style.maxHeight = '300px';
 
 			var lineChartData = {
 				labels: ['R$ 2.000,00', 'R$ 3.000,00', 'R$ 4.000,00', 'R$ 5.000,00', 'R$ 6.000,00', 'R$ 7.000,00', 'R$ 8.000,00', 'R$ 9.000,00', 'R$ 10.000,00'],
@@ -381,8 +382,8 @@ $(document).ready(function(){
 			    data: lineChartData,
 			    options: {
 			    	responsive: true,
-			    	maintainAspectRatio: true,
-			    	aspectRatio: 3,
+			    	maintainAspectRatio: false,
+			    	//aspectRatio: 3,
 			    	elements: {
 						line: {
 							tension: 0

@@ -1740,6 +1740,19 @@ textarea.form-control {
 	color: #fff;
 }
 
+.title-subtitle {
+	border-left: 1px solid #cd9794;
+	padding-left: 10px;
+}
+.title-subtitle h2 {
+	font-size: 16px !important;
+	margin-bottom: 1px !important;
+}
+.title-subtitle h3 {
+	font-size: 18px !important;
+	font-weight: normal !important;
+}
+
 
 
 
@@ -1861,6 +1874,13 @@ thead .th-title-gray {
 	padding: 5px !important;
 }
 
+
+.table-wrap {
+	overflow: auto;
+}
+.table-container {
+	min-width: 600px;
+}
 
 
 

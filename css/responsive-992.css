@@ -126,6 +126,11 @@
 		z-index: 9;
 	}
 
+	.ul-submenu-sidebar li a {
+		font-size: 14px;
+		color: #cd9794;
+	}
+
 
 
 	.banner-content,
@@ -408,5 +413,14 @@
 	}
 	.page-security article .row-diviser > .col:after {
 		display: none;
+	}
+
+	.page-btc-capital article .text-simple h2 {
+		font-weight: normal;
+	}
+
+	.page-with-charts article .ul-actions-buttons {
+		justify-content: flex-start !important;
+		margin-bottom: 50px;
 	}
 }
