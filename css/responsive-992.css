@@ -250,6 +250,15 @@
 		display: block;
 		border: none !important;
 	}
+	.mbl-row-as-col > .col {
+		-ms-flex: 0 0 100%;
+    	flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.ul-circle-icons li {
+		padding: 0 20px;
+	}
 
 
 	
@@ -399,7 +408,12 @@
 	.page-money-managment article figure,
 	.page-security article figure {
 	    max-width: 115px;
+	    margin: 0 auto;
 	    margin-bottom: 15px;
+	}
+	.page-money-managment article figure img,
+	.page-security article figure img {
+		margin: 0 auto !important;
 	}
 
 	.page-security article .text-simple.p-right {
@@ -422,5 +436,15 @@
 	.page-with-charts article .ul-actions-buttons {
 		justify-content: flex-start !important;
 		margin-bottom: 50px;
+	}
+
+
+	.page-non-discretionary article .text-simple {
+		padding: 0;
+		margin-bottom: 20px;
+		margin-top: 15px;
+	}
+	.page-non-discretionary article .row-diviser > .col:after {
+		display: none;
 	}
 }
