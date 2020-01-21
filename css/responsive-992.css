@@ -478,4 +478,9 @@
 	.page-tsag-funds article .row-diviser > .col:last-child {
 		padding-left: 15px;
 	}
+
+	.page-tsag-advanced-fund  article .table-wrap {
+		margin-bottom: 30px;
+	}
+
 }

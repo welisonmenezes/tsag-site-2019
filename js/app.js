@@ -105,6 +105,7 @@ $(document).ready(function(){
 			}
 
 			var ctx = document.getElementById('chartPerformance');
+			ctx.style.height = '300px';
 
 			var lineChartData = {
 				labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
@@ -160,7 +161,7 @@ $(document).ready(function(){
 			    data: lineChartData,
 			    options: {
 			    	responsive: true,
-			    	maintainAspectRatio: true,
+			    	maintainAspectRatio: false,
 			    	aspectRatio: 3,
 			    	elements: {
 						line: {
