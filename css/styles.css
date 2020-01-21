@@ -465,6 +465,10 @@ a, button {
 .custom-scrollbar::-webkit-scrollbar-corner{}
 .custom-scrollbar::-webkit-resizer{}
 
+.accordion-button {
+	text-align: left;
+}
+
 
 
 

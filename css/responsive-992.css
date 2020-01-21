@@ -260,6 +260,10 @@
 		padding: 0 20px;
 	}
 
+	.faq-search-wrap {
+		text-align: left !important;
+	}
+
 	
 	.sct-main, .full-content-height {
 		min-height: calc(100vh - 378px);
