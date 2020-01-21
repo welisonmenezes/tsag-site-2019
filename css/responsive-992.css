@@ -458,4 +458,14 @@
 	.page-discretionary article .col-md-5 .text-simple {
 		padding: 0;
 	}
+
+	.page-with-charts article .row-diviser > .col:first-child {
+		padding-right: 15px;
+	}
+	.page-with-charts article .row-diviser > .col:after {
+		display: none;
+	}
+	.page-with-charts article .row-diviser > .col:last-child {
+		padding-left: 15px;
+	}
 }

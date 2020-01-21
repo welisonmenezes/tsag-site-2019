@@ -195,6 +195,7 @@ $(document).ready(function(){
 
 	function performanceFilledChart() {
 		var chart = $('#chartPerformanceFilled');
+
 		if (chart.length > 0) {
 			var myLegendContainer = document.getElementById('legendChartPerformanceFilled');
 			var tooltips = {
@@ -225,6 +226,7 @@ $(document).ready(function(){
 			}
 
 			var ctx = document.getElementById('chartPerformanceFilled');
+			ctx.style.maxHeight = '300px';
 
 			var lineChartData = {
 				labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
@@ -280,7 +282,7 @@ $(document).ready(function(){
 			    data: lineChartData,
 			    options: {
 			    	responsive: true,
-			    	maintainAspectRatio: true,
+			    	maintainAspectRatio: false,
 			    	aspectRatio: 3,
 			    	elements: {
 						line: {
