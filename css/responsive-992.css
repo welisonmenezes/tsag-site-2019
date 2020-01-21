@@ -260,7 +260,10 @@
 		padding: 0 20px;
 	}
 
-
+	
+	.sct-main, .full-content-height {
+		min-height: calc(100vh - 378px);
+	}
 	
 	.sct-header .menu .dropdown {
 		position: static;
