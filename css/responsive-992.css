@@ -468,4 +468,14 @@
 	.page-with-charts article .row-diviser > .col:last-child {
 		padding-left: 15px;
 	}
+
+	.page-tsag-funds article .row-diviser > .col:after {
+		display: none;
+	}
+	.page-tsag-funds article .row-diviser > .col:first-child {
+		padding-right: 15px;
+	}
+	.page-tsag-funds article .row-diviser > .col:last-child {
+		padding-left: 15px;
+	}
 }
