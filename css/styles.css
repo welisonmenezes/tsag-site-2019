@@ -924,8 +924,16 @@ h3.title-default {
 	margin-bottom: 30px;
 }
 
+.timeline-content {
+	overflow: auto;
+}
 .timeline-content h2 {
 	margin-bottom: 30px;
+}
+.timeline-content > .row {
+	min-width: 800px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .content-area {
