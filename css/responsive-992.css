@@ -264,6 +264,23 @@
 		text-align: left !important;
 	}
 
+	.blockquote > figure {
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	.blockquote > div {
+		padding-left: 0;
+		padding-top: 95px;
+		background: url(../img/svgicons/quotes-pink.svg) no-repeat top center;
+    	background-size: 60px;
+    	text-align: center;
+    	margin-left: 0;
+	}
+
+	.mbl-gray-bg {
+		background: #eaeaea;
+	}
+
 	
 	.sct-main, .full-content-height {
 		min-height: calc(100vh - 378px);
@@ -500,17 +517,24 @@
     	padding-right: 15px;
     	padding-left: 15px;
 	}
-	.blockquote > figure {
-		margin: 0 auto;
+	
+
+
+	.page-what-we-do .text-featured {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.page-what-we-do .text-featured:after {
+		display: none;
+	}
+	.page-what-we-do .col:first-child .text-featured {
+		border-bottom: solid 1px #d9d9da;
+		padding-bottom: 40px;
 		margin-bottom: 40px;
 	}
-	.blockquote > div {
-		padding-left: 0;
-		padding-top: 95px;
-		background: url(../img/svgicons/quotes-pink.svg) no-repeat top center;
-    	background-size: 60px;
-    	text-align: center;
-    	margin-left: 0;
+	.page-what-we-do .mbl-gray-bg {
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 
 }
