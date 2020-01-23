@@ -281,6 +281,19 @@
 		background: #eaeaea;
 	}
 
+	.slick-customer-flow {
+		margin-right: -15px;
+		margin-left: -15px;
+		background: #eaeaea;
+		padding: 40px 0 30px 0;
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+	.slick-customer-flow .text-simple {
+		padding: 0 15px !important;
+		border-bottom: none !important;
+	}
+
 	
 	.sct-main, .full-content-height {
 		min-height: calc(100vh - 378px);
@@ -503,7 +516,7 @@
 		padding-left: 15px;
 	}
 
-	.page-tsag-advanced-fund  article .table-wrap {
+	.page-tsag-advanced-fund article .table-wrap {
 		margin-bottom: 30px;
 	}
 
@@ -520,21 +533,35 @@
 	
 
 
-	.page-what-we-do .text-featured {
+	.page-what-we-do article .text-featured {
 		padding-right: 0;
 		padding-left: 0;
 	}
-	.page-what-we-do .text-featured:after {
+	.page-what-we-do article .text-featured:after {
 		display: none;
 	}
-	.page-what-we-do .col:first-child .text-featured {
+	.page-what-we-do article .col:first-child .text-featured {
 		border-bottom: solid 1px #d9d9da;
 		padding-bottom: 40px;
 		margin-bottom: 40px;
 	}
-	.page-what-we-do .mbl-gray-bg {
+	.page-what-we-do article .mbl-gray-bg {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
-
+	
+	.page-transfero-customer-flow article .table-wrap {
+		margin-bottom: 20px;
+	}
+	.page-transfero-customer-flow article .row-inside-menu .col {
+		padding-left: 15px;
+	}
+	.page-transfero-customer-flow article .row-inside-menu .col:first-child {
+		border-bottom: solid 1px #d5d8db;
+		padding-bottom: 40px;
+		margin-bottom: 40px;
+	}
+	.page-transfero-customer-flow article .row-inside-menu .col:after {
+		display:  none;
+	}
 }

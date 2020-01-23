@@ -25,6 +25,44 @@ $(document).ready(function(){
 		}
 	}
 	initWeWorkCarousel();
+
+	function initCustomerFlowCarousel() {
+		var car = $('.slick-customer-flow');
+		if (car) {
+
+			var config = {
+				slidesToShow: 1,
+				arrows: false,
+				dots: true
+			};
+
+			car.slick(config);
+			
+			window.addEventListener('resize', displayWindowSize);
+
+			function displayWindowSize() {
+				var w = window.innerWidth
+						|| document.documentElement.clientWidth
+						|| document.body.clientWidth;
+
+				if (w <= 992) {
+					if (!car.hasClass('slick-initialized')) {
+						car.slick(config);
+					}
+					
+				} else {
+					car.slick('destroy');
+				}
+			}
+
+			displayWindowSize();
+
+
+		}
+
+		
+	}
+	initCustomerFlowCarousel();
 	
 	function toggleTopSearchClass(field) {
 		if (field) {

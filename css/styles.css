@@ -2325,7 +2325,27 @@ thead .th-title-gray {
 	margin-right: 0;
 }
 
-
+.slick-dots {
+	display: flex;
+	justify-content: center;
+}
+.slick-dots  li {
+	margin: 0 5px;
+}
+.slick-dots button {
+	font-size: 0;
+	color: transparent;
+	background: #d2d2d2;
+	border: none;
+	width: 15px;
+	height: 15px;
+	display: block;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.slick-dots .slick-active button {
+	background: #cd9794;
+}
 
 
 
