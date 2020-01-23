@@ -564,4 +564,19 @@
 	.page-transfero-customer-flow article .row-inside-menu .col:after {
 		display:  none;
 	}
+
+
+	.page-research .row-diviser > .col:after {
+		display: none;
+	}
+	.page-research article .row-diviser > .col:first-child {
+		padding-right: 15px;
+		margin-bottom: 40px;
+	}
+	.page-research article .row-diviser > .col:last-child {
+		padding-left: 15px;
+	}
+	.page-research article .text-featured {
+		padding: 0 !important;
+	}
 }

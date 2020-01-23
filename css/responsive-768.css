@@ -61,4 +61,16 @@
 		min-height: 35px;
 		font-size: 12px;
 	}
+
+	.s-mbl-row-as-col {
+		display: block;
+		background: #eaeaea;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.page-research article,
+	.page-research .content-page {
+		padding-bottom: 0;
+	}
 }
