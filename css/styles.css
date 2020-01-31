@@ -1910,6 +1910,7 @@ thead .th-title-gray {
  **********************************************************************/
 .sct-header .dropdown-menu {
 	margin-top: 0;
+	top: 100% !important;
 }
 .sct-header .dropdown:hover > .dropdown-menu {
 	display: block;

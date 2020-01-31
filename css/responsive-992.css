@@ -305,6 +305,9 @@
 		min-height: calc(100vh - 378px);
 	}
 	
+	.sct-header .dropdown-menu {
+		top: 0 !important;
+	}
 	.sct-header .menu .dropdown {
 		position: static;
 	}
