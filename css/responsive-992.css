@@ -94,6 +94,9 @@
 	.ul-menu > li {
 		margin-left: 0;
 	}
+	.ul-menu .link {
+		color: #fff;
+	}
 	.ul-menu .link.has-arrow {
 		background-image: url(../img/svgicons/arrow-right-pink.svg) !important;
 		background-size: 8px !important;
@@ -106,6 +109,9 @@
 		text-align: left;
 		font-size: 16px;
 		white-space: nowrap;
+	}
+	.ul-menu .mbl-padding {
+		padding-top: 40px !important;
 	}
 
 	.dropdown-item.submenu .dropdown-menu {
