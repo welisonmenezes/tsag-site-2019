@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+	$('.dropdown-item a.link').on('click', function() {
+		var t = $(this);
+		var url = t.attr('href');
+		window.location.href = url;
+	});
+
 	
 	function initWeWorkCarousel() {
 		var car = $('.slick-home-we-work');
